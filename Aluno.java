@@ -23,7 +23,6 @@ public class Aluno {
 
     public String toString() {
         return "\nAluno: " +  "\nnome: '" + nome + '\'' + "\nMatricula: " + matricula + '\''+
-                ", \nmediaFinal: " + mediaFinal +
-                '.';
+                ", \nmediaFinal: " + mediaFinal;
     }
 }
