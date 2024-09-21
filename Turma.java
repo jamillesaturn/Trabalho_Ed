@@ -7,7 +7,7 @@ public class Turma{
     cont = 0;
   }
  public void incluirAluno(Aluno aluno){
-   if(cont < aluno.length){
+   if(cont < alunos.length){
      alunos[cont++] = aluno;
    }else{
      System.out.println("A turma está completa")
