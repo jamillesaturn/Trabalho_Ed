@@ -33,4 +33,4 @@ public class Turma{
 
         removerAlunoRecursivo(matricula, index + 1);// Se o aluno não foi encontrado na posição atual, a gente vai chama recursivamente o método para o próximo índice.
     }
- } // fiz so isso aqui, se você tiver uma ideia diferente pode me manda mensagem falando no caso.
+ } 
