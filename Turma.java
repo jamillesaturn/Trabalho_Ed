@@ -32,5 +32,17 @@ public class Turma{
         }
 
         removerAlunoRecursivo(matricula, index + 1);// Se o aluno não foi encontrado na posição atual, a gente vai chama recursivamente o método para o próximo índice.
+  }
+  public void listarAlunos() {
+        listarAlunosRecursivo(0);
     }
- } 
+
+    private void listarAlunosRecursivo(int index) {
+        
+        if (index >= cont) {
+            return;
+        }
+        System.out.println(alunos[index]);
+        
+        listarAlunosRecursivo(index + 1); //imprime o aluno que está no índice atual do array
+    }
